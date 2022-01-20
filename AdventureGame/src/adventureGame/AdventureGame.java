@@ -179,10 +179,11 @@ public class AdventureGame {
 				
 			case 'q': case 'Q':
 				System.out.println("Quitting.");
+				break;
 			
 			// default case
 			default:
-				System.out.println(". . .\n");
+				System.out.println("Invalid input.\n");
 			}
 		} while (inputString.charAt(0) != 'q');
 	}
